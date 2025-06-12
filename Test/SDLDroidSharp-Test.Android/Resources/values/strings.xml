@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SDL3DroidSharp_Test.Android</string>
+    <string name="app_text">Hello, Android!</string>
+</resources>

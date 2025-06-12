@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>SDLDroidSharpTest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedNativeLibrary Include="runtimes\arm64-v8a\libSDL3.so" Link="libs\arm64-v8a\libSDL3.so" />
+  </ItemGroup>
+
+</Project>
