@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <RootNamespace>SDLDroidSharp_JBindings</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <Authors>FNA-NET</Authors>
+    <Description>Android Java library bindings for SDL3.</Description>
+    <PackageTags>SDL3;android;dotnet;</PackageTags>
+    <PackageId>SDLDroidSharp-JBindings</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\SDL3-3.2.16.jar" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="LICENSE.txt" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+</Project>
